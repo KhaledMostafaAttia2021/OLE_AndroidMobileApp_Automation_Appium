@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="251" started-at="2019-07-15T23:54:39Z" finished-at="2019-07-15T23:54:39Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:steps.sampletesting@4b952a2d]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="251" started-at="2019-07-15T23:54:39Z" finished-at="2019-07-15T23:54:39Z">
+      <class name="steps.sampletesting">
+        <test-method status="PASS" signature="startDriver(java.lang.String)[pri:0, instance:steps.sampletesting@4b952a2d]" name="startDriver" is-config="true" duration-ms="114496" started-at="2019-07-15T23:52:44Z" finished-at="2019-07-15T23:54:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:steps.sampletesting@4b952a2d]" name="setUpClass" is-config="true" duration-ms="216" started-at="2019-07-15T23:54:39Z" finished-at="2019-07-15T23:54:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:steps.sampletesting@4b952a2d]" name="tearDownClass" is-config="true" duration-ms="13" started-at="2019-07-15T23:54:39Z" finished-at="2019-07-15T23:54:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:steps.sampletesting@4b952a2d]" name="stopDriver" is-config="true" duration-ms="1253" started-at="2019-07-15T23:54:39Z" finished-at="2019-07-15T23:54:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- steps.sampletesting -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
