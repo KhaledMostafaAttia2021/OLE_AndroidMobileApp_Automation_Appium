@@ -16,7 +16,7 @@ public class demoTesting_Mobile {
 	public void simpleScenario() throws MalformedURLException, InterruptedException {
 		DesiredCapabilities caps = new DesiredCapabilities();
 		caps.setCapability("platformName", "Android");
-		caps.setCapability("platformVersion", "4.0.3");
+		caps.setCapability("platformVersion", "6.0.0");
 		caps.setCapability("deviceName", "HuaweiP8Lite");
 		caps.setCapability("app",
 				"D:\\Orange_Task_July_2019\\AndroidApp\\Pricena Shopping Comparison_v4.2.1_apkpure.com.apk");
